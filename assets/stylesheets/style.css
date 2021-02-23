@@ -1,14 +1,247 @@
 @font-face {
   font-family: 'Poppins';
   src: url('../fonts/Poppins/Poppins-Regular.woff2');
+  font-family: 'PoppinsSM';
+  src: url('../fonts/Poppins/Poppins-SemiBold.woff2');
 }
 
-body{
+:root {
+  --fontG: Poppins;
+  --fontB: PoppinsSM;
+  --blueBut: #2500f9;
+  --H1text: #242f51;
+  --Ptext: #616368;
+  --Tred: #f55767;
+  --Tblue: #2563ff;
+  --Tgreen: #40975f;
+}
+
+body {
   overflow: scroll;
 }
 
- p {
-  font-family: Poppins;
-  font-size: 2rem;
-  font-weight: 300;
+h1 {
+  font-family: var(--fontB);
+  font-size: 2.25rem;
+  color: var(--H1text);
+}
+
+h3 {
+  font-family: var(--fontB);
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+p {
+  font-family: var(--fontG);
+  font-size: 1rem;
+  color: var(--Ptext);
+}
+
+p span {
+  display: block;
+}
+
+.line-heighth {
+  line-height: 120%;
+}
+
+.line-heightp {
+  line-height: 150%;
+}
+
+.center {
+  text-align: center;
+}
+
+.content-width {
+  width: 1170px;
+}
+
+.content-margin {
+  margin: 0px auto;
+}
+
+.button {
+  font-family: var(--fontB);
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: #2500f9;
+  color: #fff;
+  border: 1px solid blue;
+  border-radius: 100px;
+  text-decoration: none;
+  padding: 20px 40px;
+}
+/* end of global declarations */
+
+.header{
+  height: 150px;
+}
+
+.header-container {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo a{
+  font-family: var(--fontB);
+  font-size: 1.88rem;
+  color: #fcae61;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.header-logo a span {
+ color: #242f51;
+ text-transform: capitalize;
+}
+
+.header-menu {
+  width: 690px;
+  display: flex;
+  align-items: space-between;
+}
+
+.header .menu {
+  width: 518px;
+  height: 57px;
+}
+
+.header .menu ul {
+  height: inherit;
+  display: flex;
+  align-items: flex-end;
+}
+
+.header .menu ul li{
+  margin-bottom: 20px;
+}
+
+.header ul li a {
+  font-family: var(--fontG);
+  font-size: 1rem;
+  font-weight: 500;
+  color: #242f51;
+  text-decoration: none;
+  margin-right: 35px;
+}
+
+.header ul li a span {
+  text-transform: uppercase;
+  margin-right: 0px;
+}
+
+.header .try {
+  width: 170px;
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.sponsor {
+  height: 330px;
+  margin-top: 115px;
+  margin-bottom: 160px;
+}
+
+.sponsor-container {
+  display: block;
+}
+
+.sponsor p {
+  color: #242f51;
+}
+
+.sponsor .sponsor-text {
+  width: inherit;
+  font-family: var(--fontG);
+  font-size: 1rem;
+  color: var(--H1text);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sponsor .sponsor-comp {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.designed {
+  height: 575px;
+}
+
+.designed-container {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.designed-text {
+  margin-top: 12%;
+  margin-bottom: 15%;
+  display: block;
+}
+
+.designed h1 {
+  font-weight: 700;
+}
+
+.designed-text span {
+  display: block;
+}
+
+.designed-text p {
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+
+.why {
+  margin-top: 140px;
+  height: 815px;
+}
+
+.why-container {
+  display: block;
+}
+
+.why-text {
+  margin-bottom: 90px;
+}
+
+.why-text h1 {
+  margin-bottom: 35px;
+}
+
+.why .why-text span{
+  display: block;
+}
+
+.why .why-text2 h3 {
+  color: #242f51;
+  margin-bottom: 20px;
+}
+
+.why p {
+  font-size: 1rem;
+}
+
+.why-text2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.why-text2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffecef;
+  margin-bottom: 30px;
+}
+
+.why .mini-box {
+  margin-bottom: 60px;
 }
