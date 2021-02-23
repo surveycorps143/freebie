@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins/Poppins-Regular.woff2');
+}
+
+body{
+  overflow: scroll;
+}
+
+ p {
+  font-family: Poppins;
+  font-size: 2rem;
+  font-weight: 300;
+}
