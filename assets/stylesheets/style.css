@@ -306,7 +306,50 @@ p span {
   color: #40975f;
 }
 
+.features-bot1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 113px;
+  margin-top: 20px;
+}
 
+.features-bot1-text {
+  padding-right:
+  border-right: 1px solid #b9b9b8;
+}
+
+.features-bot1-p {
+  margin-left: -10px;
+}
+
+.features-bot1 h1 span {
+  display: block;
+}
+
+.features-bot1-text h1 {
+  padding-right: 100px;
+  border-right: 1px solid #b9b9b8;
+  font-weight: 700;
+}
+
+.features-bot1-p {
+  margin-left: -180px;
+}
+
+.features-bot2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.features-box2 {
+  display: block;
+}
+
+.features-box2 h3 {
+  margin-top: 35px;
+}
 
 .designed {
   height: 575px;
@@ -384,6 +427,54 @@ p span {
 .why .mini-box {
   margin-bottom: 60px;
 }
+
+.faq {
+  margin-top: 200px;
+  margin-bottom: 112px;
+  height: 725px;
+}
+
+.faq h3 {
+  font-style: 1.25rem;
+  color: var(--H1text);
+}
+
+.faq-container {
+  display: block;
+}
+
+.faq .faq1 {
+  height: 178px;
+}
+
+.faq .faq1 p {
+  margin-top: 30px;
+}
+
+.faq .faq2 {
+  background-color: #f5f7fa;
+  padding: 51px 48px 78px;
+}
+
+.faq .faq2 p {
+  margin-top: 43px;
+}
+
+.faq .faq3-box {
+  margin-top: 10px;
+  background-color: #f5f7fa;
+  padding: 25px 50px 18px;
+  height: 30px;
+}
+
+
+
+
+
+
+
+
+
 
 .download {
   height: 428px;
